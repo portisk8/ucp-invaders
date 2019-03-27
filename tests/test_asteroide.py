@@ -4,7 +4,7 @@ from src.Asteroide import Asteroide
 from src.Invasor import Invasor
 
 
-class AsteroideTest(unittest.TestCase):
+class TestAsteroide(unittest.TestCase):
     def test_chocar_nave_sin_danio(self):
         nave = Nave(100, 50)
         asteroide = Asteroide(0)

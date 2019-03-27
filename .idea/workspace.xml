@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba6b3ac3-ff4f-4c23-bf13-6d4064079ce2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/test_invasor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Invasor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Invasor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_asteroide.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_asteroide.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,13 +14,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_asteroide.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="102">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_invasor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#331#346#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,15 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Invasor.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_nave.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
+            <state relative-caret-position="238">
               <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -68,17 +86,8 @@
         <option value="$PROJECT_DIR$/tests/nave_test.py" />
         <option value="$PROJECT_DIR$/src/Asteroide.py" />
         <option value="$PROJECT_DIR$/tests/test_asteroide.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/ucp-invaders.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/dictionaries/Augusto.xml" />
+        <option value="$PROJECT_DIR$/tests/test_invasor.py" />
+        <option value="$PROJECT_DIR$/src/Invasor.py" />
       </list>
     </option>
   </component>
@@ -133,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_asteroide.AsteroideTest">
+  <component name="RunManager" selected="Python tests.pytest for test_invasor.TestInvasor.test_chocar_nave">
     <configuration name="pytest for test_asteroide.AsteroideTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ucp-invaders" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,6 +170,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_asteroide.AsteroideTest.test_chocar_nave_sin_danio&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_invasor.TestInvasor.test_chocar_nave" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ucp-invaders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_invasor.TestInvasor.test_chocar_nave&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -211,6 +235,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_invasor.TestInvasor.test_chocar_nave" />
         <item itemvalue="Python tests.pytest for test_asteroide.AsteroideTest" />
         <item itemvalue="Python tests.pytest for test_asteroide.AsteroideTest.test_chocar_nave_sin_danio" />
         <item itemvalue="Python tests.pytest for test_nave.TestNave.test_DestruirConDanio" />
@@ -232,21 +257,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_asteroide_py - 2019.03.27 at 19h 16m 39s.xml">
-      <configuration name="pytest in test_asteroide.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_asteroide_py - 2019.03.27 at 19h 16m 57s.xml">
-      <configuration name="pytest in test_asteroide.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_asteroide_py - 2019.03.27 at 19h 17m 20s.xml">
-      <configuration name="pytest in test_asteroide.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_asteroide_py - 2019.03.27 at 19h 17m 35s.xml">
-      <configuration name="pytest in test_asteroide.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_asteroide_py - 2019.03.27 at 19h 17m 56s.xml">
-      <configuration name="pytest in test_asteroide.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_asteroide_py - 2019.03.27 at 19h 17m 58s.xml">
       <configuration name="pytest in test_asteroide.py" configurationId="tests" />
     </history-entry>
@@ -261,6 +271,21 @@
     </history-entry>
     <history-entry file="pytest_for_test_nave_TestNave_test_DestruirConDanio - 2019.03.27 at 19h 22m 39s.xml">
       <configuration name="pytest for test_nave.TestNave.test_DestruirConDanio" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_nave_TestNave_test_DestruirConDanio - 2019.03.27 at 19h 24m 42s.xml">
+      <configuration name="pytest for test_nave.TestNave.test_DestruirConDanio" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_nave_TestNave_test_DestruirConDanio - 2019.03.27 at 19h 25m 06s.xml">
+      <configuration name="pytest for test_nave.TestNave.test_DestruirConDanio" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_asteroide_AsteroideTest_test_chocar_nave_sin_danio - 2019.03.27 at 19h 25m 12s.xml">
+      <configuration name="pytest for test_asteroide.AsteroideTest.test_chocar_nave_sin_danio" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_asteroide_AsteroideTest - 2019.03.27 at 19h 25m 34s.xml">
+      <configuration name="pytest for test_asteroide.AsteroideTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_invasor_TestInvasor_test_chocar_nave - 2019.03.27 at 19h 29m 43s.xml">
+      <configuration name="pytest for test_invasor.TestInvasor.test_chocar_nave" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -307,19 +332,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Invasor.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Asteroide.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_nave.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
+        <state relative-caret-position="238">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -329,11 +344,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_asteroide.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_invasor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#331#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Asteroide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Invasor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
