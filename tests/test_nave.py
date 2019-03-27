@@ -1,8 +1,10 @@
 import unittest
-from Invasor import Invasor
-from Nave import Nave
+from src.Invasor import Invasor
+from src.Nave import Nave
 
-class TestDestruir(unittest.TestCase):
+
+class TestNave(unittest.TestCase):
+
     def test_DestruirSinDanio(self):
         nave = Nave(100,50)
         invasor = Invasor(100,0)
@@ -23,6 +25,3 @@ class TestDestruir(unittest.TestCase):
         nave.destruir(invasor)
         print("Probando Destruir con Daño")
         self.assertTrue((invasor.Vida == 0), "")
-
-if __name__ == "__main__":
-   unittest.main(exit=False)
