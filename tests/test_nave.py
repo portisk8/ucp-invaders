@@ -33,3 +33,10 @@ class TestNave(unittest.TestCase):
         nave.destruirGhost(invasorG)
         print("Probando Destruir con Daño")
         self.assertTrue((invasorG.Vida == 100), "")
+
+    def test_DestruirGhost50Vida(self):
+        nave = Nave(100,100)
+        invasorG = InvasorGhost(50,100)
+        nave.destruirGhost(invasorG)
+        print("Probando Destruir con Daño")
+        self.assertTrue((invasorG.Vida == 50), "")
