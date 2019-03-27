@@ -4,6 +4,8 @@ class Nave(object):
         self.Velocidad = velocidad
 
     def destruir(self, invasor):
-        porcentaje = self.Velocidad * invasor.Velocidad / 100
-        invasor.Vida -= porcentaje
+        invasor.Vida -= self.Velocidad * invasor.Velocidad / 100
+        return invasor.Vida
+
+    def destruirGhost(self, invasor):
         return invasor.Vida
