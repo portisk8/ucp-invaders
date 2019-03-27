@@ -32,3 +32,9 @@ class AsteroideTest(unittest.TestCase):
         asteroide = Asteroide(0)
         asteroide.chocar_invasor(invasor)
         self.assertTrue(invasor.Vida == 100)
+
+    def test_chocar_invasor_con_danio(self):
+        invasor = Invasor(100, 100)
+        asteroide = Asteroide(100)
+        asteroide.chocar_invasor(invasor)
+        self.assertTrue(invasor.Vida == 50)
