@@ -11,3 +11,9 @@ class TestInvasor(unittest.TestCase):
         invasor.chocar(nave)
         self.assertTrue(nave.Vida == 0)
 
+    def test_destruir_nave(self):
+        invasor = Invasor(100, 50)
+        nave = Nave(100, 60)
+        invasor.destruir(nave)
+        self.assertTrue(nave.Vida == 40)
+
