@@ -1,6 +1,6 @@
 class Nave(object):
     def __init__(self, vida, velocidad):
-        self.vida = vida
+        self.Vida = vida
         self.Velocidad = velocidad
 
     def destruir(self, invasor):
