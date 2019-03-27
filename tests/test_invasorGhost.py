@@ -2,7 +2,8 @@ import unittest
 from src.Nave import Nave
 from src.InvasorGhost import InvasorGhost
 
-class TestInvasor(unittest.TestCase):
+
+class TestInvasorGhost(unittest.TestCase):
 
     def test_chocar_nave(self):
         invasor = InvasorGhost(100, 30)
@@ -10,4 +11,8 @@ class TestInvasor(unittest.TestCase):
         invasor.chocar(nave)
         self.assertTrue(nave.Vida == 100)
 
-
+    def test_destruir_nave1(self):
+        invasor = InvasorGhost(100, 50)
+        nave = Nave(100, 60)
+        invasor.destruir(nave)
+        self.assertTrue(nave.Vida == 40)
