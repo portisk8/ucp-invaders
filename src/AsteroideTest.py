@@ -10,7 +10,13 @@ class TestAsteroide(unittest.TestCase):
         asteroide.chocar(nave)
         print("[TEST] Destruir sin Daño >  Asteroide choca con velocidad 0")
         self.assertTrue((nave.Vida == 100), "")
-
+    
+    def test_DestruirConDanio(self):
+        nave = Nave(100,50)
+        asteroide = Asteroide(20)
+        asteroide.chocar(nave)
+        print("[TEST] Destruir con Daño >  Asteroide choca con velocidad 60")
+        self.assertTrue((nave.Vida == 60), "")
 
 if __name__ == "__main__":
    unittest.main(exit=False)
