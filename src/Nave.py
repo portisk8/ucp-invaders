@@ -7,8 +7,4 @@ class Nave(Personaje):
         Personaje.__init__(self, vida, velocidad)
 
     def destruir(self, invasor):
-        if(isinstance(invasor, Invasor)):
-            invasor.Vida -= self.Velocidad * invasor.Velocidad / 100
-        elif (isinstance(invasor, InvasorVikingo)):
-            invasor.Vida -= self.Velocidad * 0.1
-        return invasor.Vida
+        return invasor.destruite_por_nave(self)
