@@ -48,3 +48,9 @@ class TestNave(unittest.TestCase):
         vikingo = InvasorVikingo(50, 10)
         nave.destruir(vikingo)
         self.assertTrue((vikingo.Vida == 45), "")
+
+    def test_DestruirVikingo100(self):
+        nave = Nave(100, 100)
+        vikingo = InvasorVikingo(100, 10)
+        nave.destruir(vikingo)
+        self.assertTrue((vikingo.Vida == 90), "")
