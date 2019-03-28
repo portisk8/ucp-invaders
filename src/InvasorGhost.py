@@ -1,10 +1,9 @@
-from src.Artefacto import Artefacto
+from src.Personaje import Personaje
 
 
-class InvasorGhost(Artefacto):
+class InvasorGhost(Personaje):
     def __init__(self, vida, velocidad):
-        Artefacto.__init__(self, velocidad)
-        self.Vida = vida
+        Personaje.__init__(self, vida, velocidad)
 
     def chocar(self, nave):
         return nave.Vida

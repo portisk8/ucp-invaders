@@ -1,10 +1,9 @@
-from src.Artefacto import Artefacto
+from src.Personaje import Personaje
 
 
-class Nave(Artefacto):
+class Nave(Personaje):
     def __init__(self, vida, velocidad):
-        Artefacto.__init__(self, velocidad)
-        self.Vida = vida
+        Personaje.__init__(self, vida, velocidad)
 
     def destruir(self, invasor):
         invasor.Vida -= self.Velocidad * invasor.Velocidad / 100
