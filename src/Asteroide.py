@@ -1,6 +1,8 @@
-class Asteroide(object):
+from src.Artefacto import Artefacto
+
+class Asteroide(Artefacto):
     def __init__(self, velocidad):
-        self.Velocidad = velocidad
+        Artefacto.__init__(self, velocidad)
     
     def chocar_nave(self, nave):
         nave.Vida -= (self.Velocidad * nave.Velocidad) / 200
