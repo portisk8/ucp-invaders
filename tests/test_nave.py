@@ -1,6 +1,7 @@
 import unittest
 from src.Invasor import Invasor
 from src.InvasorGhost import InvasorGhost
+from src.InvasorVikingo import InvasorVikingo
 from src.Nave import Nave
 
 
@@ -34,9 +35,16 @@ class TestNave(unittest.TestCase):
         print("Probando Destruir con Daño")
         self.assertTrue((invasorG.Vida == 100), "")
 
+    # INVASOR GHOST
     def test_DestruirGhost50Vida(self):
         nave = Nave(100,100)
         invasorG = InvasorGhost(50,100)
         nave.destruir(invasorG)
-        print("Probando Destruir con Daño")
         self.assertTrue((invasorG.Vida == 50), "")
+
+    # INVASOR VIKINGO
+    def test_DestruirVikingo50(self):
+        nave = Nave(100, 50)
+        vikingo = InvasorVikingo(50, 10)
+        nave.destruir(vikingo)
+        self.assertTrue((vikingo.Vida == 45), "")
