@@ -8,3 +8,7 @@ class InvasorVikingo(Personaje):
     def destruite_por_nave(self, nave):
         self.Vida -= nave.Velocidad * 0.1
         return self.Vida
+
+    def chocar(self,personaje):
+        danio = 90 * self.Velocidad / 100
+        return personaje.chocate(personaje.Vida - danio)
