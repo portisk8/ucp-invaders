@@ -9,8 +9,5 @@ class Asteroide(Artefacto):
         Artefacto.__init__(self, velocidad)
 
     def chocar(self, victima):
-        if(isinstance(victima, Nave )):
-            danio = (self.Velocidad * victima.Velocidad) / 200
-        elif (isinstance(victima, Invasor )):
-            danio = (self.Velocidad * victima.Velocidad) / 200
+        danio = (self.Velocidad * victima.Velocidad) / 200
         return victima.chocate(victima.Vida - danio)
