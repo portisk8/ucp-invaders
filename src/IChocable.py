@@ -1,8 +1,8 @@
 class IChocable(object):
-    def __init__(self,):
+    def __init__(self, ):
         pass
 
-    def chocar(self, iChocable):
+    def chocar(self, victima):
         pass
 
     def getVelocidad(self):

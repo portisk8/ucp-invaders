@@ -5,8 +5,8 @@ class Invasor(Personaje):
     def __init__(self, vida, velocidad):
         Personaje.__init__(self, vida, velocidad)
 
-    def chocar(self, nave):
-        return nave.chocate(0)
+    def chocar(self, victima):
+        return victima.chocate(0)
 
     def destruir(self, nave):
         nave.Vida -= self.Velocidad * 1.2

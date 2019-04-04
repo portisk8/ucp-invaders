@@ -9,6 +9,6 @@ class InvasorVikingo(Personaje):
         self.Vida -= nave.Velocidad * 0.1
         return self.Vida
 
-    def chocar(self,personaje):
+    def chocar(self,victima):
         danio = 90 * self.Velocidad / 100
-        return personaje.chocate(personaje.Vida - danio)
+        return victima.chocate(victima.Vida - danio)
